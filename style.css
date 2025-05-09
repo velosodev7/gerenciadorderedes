@@ -29,6 +29,30 @@ img {
   display: block; /* Remove espaços indesejados */
 }
 
+.footer {
+  text-align: center;
+  padding: 20px;
+  margin-top: 20px;
+  color: #666;
+  font-size: 14px;
+}
+
+.perfil-content {
+  flex: 1; /* Faz o conteúdo principal ocupar o espaço disponível */
+}
+
+.container-footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: #f8f9fa; /* Cor de fundo padrão (claro) */
+  color: #333;
+}
+
+.dark-theme .container-footer {
+  background-color: #1a1a1a;
+  color: #f0f0f0;
+}
+
 /* Botão de alternância */
 .theme-toggle {
   font-size: 24px;
